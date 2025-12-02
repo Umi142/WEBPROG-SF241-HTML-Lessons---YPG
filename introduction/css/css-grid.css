@@ -12,3 +12,9 @@
   font-size: 30px;
   text-align: center;
 }
+
+.grid-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
