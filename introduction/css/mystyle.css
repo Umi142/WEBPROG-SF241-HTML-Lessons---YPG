@@ -2,6 +2,9 @@ body {
     background-color: #0D0F2E; 
     font-family: Georgia, 'Times New Roman', Times, serif; 
     color: #FFFDF6; 
+}
+
+.main-content-wrapper {
     margin: 40px auto; 
     padding: 20px;
     max-width: 800px; 
@@ -34,4 +37,5 @@ img {
     max-width: 100%; 
     height: auto;
 }
+
 
