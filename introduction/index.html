@@ -1,42 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>WEBPROG SF241 Introduction YPG</title>
-  <link rel="stylesheet" href="css/mystyle.css">
-  <link rel="stylesheet" href="css/flexbox.css">
+    <title>WEBPROG SF241 Introduction YPG</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="stylesheet" href="css/flexbox.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
 
-  <h1>Personal Profile Web page - Yumilka Gutierrez</h1>
+    <h1>Personal Profile Web page - Yumilka Gutierrez</h1>
 
-  <section>
-    <h2 style="font-size:30px">About Me</h2>
-    <p>Course: Bachelor of Science in Computer Science With Specialization in Cyber Security & Forensics</p>
-    <p>IT Experience: Python Fundamentals • Linux • Cisco Packet Tracer • MySQL Workbench</p>
-    <p>Hobbies & Interests: Cats</p>
-    <p>Goals In Life/Dream: Have more cats</p>
-  </section>
+    <section>
+        <h2 style="font-size:30px">About Me</h2>
+        <p>Course: Bachelor of Science in Computer Science With Specialization in Cyber Security & Forensics</p>
+        <p>IT Experience: Python Fundamentals • Linux • Cisco Packet Tracer • MySQL Workbench</p>
+        <p>Hobbies & Interests: Cats</p>
+        <p>Goals In Life/Dream: Have more cats</p>
+    </section>
 
-  <section>
-    <h2 style="font-size:30px">Picture Gallery</h2>
-    <img src="cat.jpg" width="500" height="600" alt="posa">
-  </section>
+    <section>
+        <h2 style="font-size:30px">Picture Gallery</h2>
+        <img src="cat.jpg" width="500" height="600" alt="posa">
+    </section>
 
-  <section>
-    <h2 style="font-size:30px">Flexbox Demo</h2>
-    <div class="container">
-      <div>JUM</div>
-      <div>BO</div>
-      <div>HOT</div>  
-      <div>DOG</div>
-      <div>KA</div>
-      <div>YA</div>  
-      <div>KO</div>
-      <div>BA</div>
-      <div>TO</div>  
-      <div>👨‍🦯‍➡️</div>  
+    <div class="container-fluid mt-3">
+        <h1>Responsive Auto Layout Columns</h1>
+        <p>In Bootstrap 5, there is an easy way to create equal width columns: just use the <code>.col-md</code> class on a specified number of col elements. Bootstrap will recognize how many columns there are, and each column will get the same width.</p>
+        <p>If the screen size is <strong>less than 768px</strong>, the columns will stack horizontally.</p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md bg-primary text-white">1 of 2</div>
+                <div class="col-md bg-dark text-white">2 of 2</div>
+            </div>
+        </div>
+        <br>
+        
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md bg-primary text-white">1 of 4</div>
+                <div class="col-md bg-dark text-white">2 of 4</div>
+                <div class="col-md bg-primary text-white">3 of 4</div>
+                <div class="col-md bg-dark text-white">4 of 4</div>
+            </div>
+        </div>
     </div>
-  </section>
 
 </body>
 </html>
