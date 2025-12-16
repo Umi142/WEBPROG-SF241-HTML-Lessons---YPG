@@ -1,42 +1,78 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>WEBPROG SF241 Introduction YPG</title>
-  <link rel="stylesheet" href="css/mystyle.css">
-  <link rel="stylesheet" href="css/flexbox.css">
+    <title>WEBPROG SF241 Introduction YPG</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="stylesheet" href="css/flexbox.css">
+    <link rel="stylesheet" href="css/rwd.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
-  <h1>Personal Profile Web page - Yumilka Gutierrez</h1>
+    <h1>Personal Profile Web page - Yumilka Gutierrez</h1>
 
-  <section>
-    <h2 style="font-size:30px">About Me</h2>
-    <p>Course: Bachelor of Science in Computer Science With Specialization in Cyber Security & Forensics</p>
-    <p>IT Experience: Python Fundamentals • Linux • Cisco Packet Tracer • MySQL Workbench</p>
-    <p>Hobbies & Interests: Cats</p>
-    <p>Goals In Life/Dream: Have more cats</p>
-  </section>
+    <section>
+        <h2 style="font-size:30px">About Me</h2>
+        <p>Course: Bachelor of Science in Computer Science With Specialization in Cyber Security & Forensics</p>
+        <p>IT Experience: Python Fundamentals • Linux • Cisco Packet Tracer • MySQL Workbench</p>
+        <p>Hobbies & Interests: Cats</p>
+        <p>Goals In Life/Dream: Have more cats</p>
+    </section>
 
-  <section>
-    <h2 style="font-size:30px">Picture Gallery</h2>
-    <img src="cat.jpg" width="500" height="600" alt="posa">
-  </section>
+    <section>
+        <h2 style="font-size:30px">Picture Gallery</h2>
+        <img src="cat.jpg" width="500" height="600" alt="posa">
+    </section>
 
-  <section>
-    <h2 style="font-size:30px">Flexbox Demo</h2>
-    <div class="container">
-      <div>JUM</div>
-      <div>BO</div>
-      <div>HOT</div>  
-      <div>DOG</div>
-      <div>KA</div>
-      <div>YA</div>  
-      <div>KO</div>
-      <div>BA</div>
-      <div>TO</div>  
-      <div>👨‍🦯‍➡️</div>  
-    </div>
-  </section>
+    <section>
+        <div class="grid-container">
+
+            <div class="header"><h1>MEOW LAND</h1></div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#flight">The Flight</a></li>
+                    <li><a href="#cat">The Cat</a></li>
+                    <li><a href="#facts">Facts</a></li>
+                    <li><a href="#island">The Island</a></li>
+                    <li><a href="#food">The Food</a></li>
+                </ul>
+            </div>
+
+            <div class="content" id="cat">
+                <h1>The Cat</h1>
+                    <p>The cat is the ruler of its cozy little kingdom at home.</p>
+                    <p>Its world can be divided into two parts: the playful side and the sleepy side. The playful side is centered around toys and mischief, while the sleepy side is the calm core where naps are taken and dreams are made.</p>
+                    <p>The cat usually rests along the warmest spot of the house, claiming it as its territory.</p>
+            </div>
+
+            <div class="facts" id="facts">
+                <h2>Facts:</h2>
+                <ul>
+                    <li>Cats believe every cardboard box is a luxury condo</li>
+                    <li>They think 3 a.m. zoomies are a perfectly reasonable fitness routine</li>
+                    <li>A cat’s definition of “helping” is sitting directly on your keyboard</li>
+                    <li style="color: blue; font-weight: bold;">Cats rub themselves on a person to show affection.</li> <!-- Miguel -->>
+                </ul>
+            </div>
+
+            <div class="footer"><p>A footer.</p></div>
+
+        </div>
+    </section>
+
+    <section> 
+        <h2>Demo External JavaScript</h2>
+
+        <p id="demo">A Paragraph.</p>
+
+        <button type="button" onclick="myFunction()">Try it</button>
+
+        <p>This example links to "myScript.js".</p>
+        <p>(myFunction is stored in "myScript.js")</p>
+
+        <script src="js/myScript.js"></script>
+    </section>    
 
 </body>
 </html>
