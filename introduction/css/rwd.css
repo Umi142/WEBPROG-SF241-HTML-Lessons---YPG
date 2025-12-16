@@ -42,10 +42,18 @@
     margin-bottom: 7px;
     background-color: #33b5e5;
     color: #0D0F2E;
+    cursor: pointer; /* umi */
 }
 
 .grid-container .menu li:hover {
     background-color: #0099cc;
+}
+
+/* umi */
+.grid-container .menu li a {
+    text-decoration: none;
+    color: inherit;
+    display: block; 
 }
 
 .grid-container .content {
